@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Geo Genius</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_title">Accedi come studente</string>
+    <string name="etichetta_user">Nome utente</string>
+    <string name="etichetta_psw">Password</string>
+    <string name="hint_user">Max 10 caratteri senza spazi</string>
+    <string name="hint_psw">Min 8 caratteri</string>
+    <string name="button_accedi">Accedi</string>
+    <string name="button_registrami">Registrami</string>
+    <string name="nomeFileAccounts">accessoUtenti.txt</string>
+    <string name="title_activity_home">Home</string>
+    <string name="descrizioneMondo">Planisfero</string>
+    <string name="action_capitali">Capitali</string>
+    <string name="action_fiumi">Fiumi</string>
+    <string name="action_laghi">Laghi</string>
+    <string name="action_monumenti">Monumenti</string>
+    <string name="title_activity_capitali">Capitali</string>
+    <string name="title_activity_fiumi">Fiumi</string>
+    <string name="descrizione_info">info</string>
+
+</resources>

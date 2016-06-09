@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.app01prj.HomeActivity" >
+    
+   <item
+       android:id="@+id/action_capitali"
+       android:orderInCategory="100"
+       android:showAsAction="never"    
+      android:title="@string/action_capitali"/>
+
+   <item
+       android:id="@+id/action_fiumi"
+       android:orderInCategory="200"
+       android:showAsAction="never"    
+      android:title="@string/action_fiumi"/>
+   
+   <item
+       android:id="@+id/action_laghi"
+       android:orderInCategory="300"
+       android:showAsAction="never"    
+      android:title="@string/action_laghi"/>
+   
+   <item
+       android:id="@+id/action_monumenti"
+       android:orderInCategory="400"
+       android:showAsAction="never"    
+      android:title="@string/action_monumenti"/>
+   
+</menu>

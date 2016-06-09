@@ -1,0 +1,20 @@
+<!-- Il file info.xml è necessario per effettuare le seguenti associazioni:
+	item Info premuto -> info_premuto.png
+	item Info non premuto -> info_normale.png
+	item Info con focus -> info_focus.png  
+	
+	N.B. E' necessario definire i casi più specifici prima di
+	definire il caso generico altrimenti quest'ultimo 
+	sostituirà il caso specifico (in tale situazione viene lanciato un warning) -->
+	
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:state_pressed="true"
+          android:drawable="@drawable/info_premuto" /> 
+    
+    <item android:state_focused="true"
+          android:drawable="@drawable/info_focus" />
+    
+    <item android:drawable="@drawable/info_normale" />
+    
+</selector>
